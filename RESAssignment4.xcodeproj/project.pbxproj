@@ -12,6 +12,11 @@
 		A36454761A9CD52700D8FD63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36454751A9CD52700D8FD63 /* Images.xcassets */; };
 		A36454791A9CD52700D8FD63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A36454771A9CD52700D8FD63 /* LaunchScreen.xib */; };
 		A36454851A9CD52800D8FD63 /* RESAssignment4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A36454841A9CD52800D8FD63 /* RESAssignment4Tests.m */; };
+		A36454951A9CD5F000D8FD63 /* RESDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A36454941A9CD5F000D8FD63 /* RESDataModel.m */; };
+		A377888F1A9FC0E700BF4544 /* RESTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A377888E1A9FC0E700BF4544 /* RESTableViewController.xib */; };
+		A3CC1F8A1A9D060D00F0365F /* RESWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CC1F881A9D060D00F0365F /* RESWebViewController.m */; };
+		A3CC1F8B1A9D060D00F0365F /* RESWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3CC1F891A9D060D00F0365F /* RESWebViewController.xib */; };
+		A3CC1F8F1A9D0A3700F0365F /* RESTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CC1F8D1A9D0A3700F0365F /* RESTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 		A364547E1A9CD52800D8FD63 /* RESAssignment4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESAssignment4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36454831A9CD52800D8FD63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A36454841A9CD52800D8FD63 /* RESAssignment4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESAssignment4Tests.m; sourceTree = "<group>"; };
+		A36454931A9CD5F000D8FD63 /* RESDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESDataModel.h; sourceTree = "<group>"; };
+		A36454941A9CD5F000D8FD63 /* RESDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESDataModel.m; sourceTree = "<group>"; };
+		A377888E1A9FC0E700BF4544 /* RESTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RESTableViewController.xib; sourceTree = SOURCE_ROOT; };
+		A3CC1F871A9D060D00F0365F /* RESWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESWebViewController.h; sourceTree = "<group>"; };
+		A3CC1F881A9D060D00F0365F /* RESWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESWebViewController.m; sourceTree = "<group>"; };
+		A3CC1F891A9D060D00F0365F /* RESWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RESWebViewController.xib; sourceTree = "<group>"; };
+		A3CC1F8C1A9D0A3700F0365F /* RESTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RESTableViewController.h; path = ../RESTableViewController.h; sourceTree = "<group>"; };
+		A3CC1F8D1A9D0A3700F0365F /* RESTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RESTableViewController.m; path = ../RESTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +91,14 @@
 			children = (
 				A36454721A9CD52700D8FD63 /* AppDelegate.h */,
 				A36454731A9CD52700D8FD63 /* AppDelegate.m */,
+				A36454931A9CD5F000D8FD63 /* RESDataModel.h */,
+				A36454941A9CD5F000D8FD63 /* RESDataModel.m */,
+				A3CC1F8C1A9D0A3700F0365F /* RESTableViewController.h */,
+				A3CC1F8D1A9D0A3700F0365F /* RESTableViewController.m */,
+				A377888E1A9FC0E700BF4544 /* RESTableViewController.xib */,
+				A3CC1F871A9D060D00F0365F /* RESWebViewController.h */,
+				A3CC1F881A9D060D00F0365F /* RESWebViewController.m */,
+				A3CC1F891A9D060D00F0365F /* RESWebViewController.xib */,
 				A36454751A9CD52700D8FD63 /* Images.xcassets */,
 				A36454771A9CD52700D8FD63 /* LaunchScreen.xib */,
 				A364546E1A9CD52700D8FD63 /* Supporting Files */,
@@ -191,6 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A377888F1A9FC0E700BF4544 /* RESTableViewController.xib in Resources */,
+				A3CC1F8B1A9D060D00F0365F /* RESWebViewController.xib in Resources */,
 				A36454791A9CD52700D8FD63 /* LaunchScreen.xib in Resources */,
 				A36454761A9CD52700D8FD63 /* Images.xcassets in Resources */,
 			);
@@ -210,7 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3CC1F8F1A9D0A3700F0365F /* RESTableViewController.m in Sources */,
 				A36454741A9CD52700D8FD63 /* AppDelegate.m in Sources */,
+				A36454951A9CD5F000D8FD63 /* RESDataModel.m in Sources */,
+				A3CC1F8A1A9D060D00F0365F /* RESWebViewController.m in Sources */,
 				A36454711A9CD52700D8FD63 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +420,7 @@
 				A364548A1A9CD52800D8FD63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A364548B1A9CD52800D8FD63 /* Build configuration list for PBXNativeTarget "RESAssignment4Tests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +429,7 @@
 				A364548D1A9CD52800D8FD63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
